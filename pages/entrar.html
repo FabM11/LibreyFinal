@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html>
+<head>
+    <title>Cadastro de Livro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+     @media screen and (max-width:1800px) {
+  }
+    body{
+        background:#c6e9f0;
+
+    }
+  
+   
+    .input{
+        margin-top: 10px;
+        background: burlywood;
+        border: none;
+        height: 25px;
+        outline: none;
+    }
+    .forms{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-style: hidden;
+        background: rgb(55, 164, 207);
+height: 400px;
+box-shadow: 10px blue;
+
+
+    }
+    .i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+height: 300px;
+    }
+ .texto{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: underline;
+ }
+
+  
+
+</style>
+<script>
+    alert("bem vindo(a) ");
+    alert("só será permitido o cadrasto de livros pela gestão.");
+</script>
+
+
+<body>
+    <div class="container mt-3">
+    <h1 class="texto">Login
+        
+    </h1>
+    
+<section >
+    <form action="../PHP/bibliotecaria.php" method="POST" class="forms">
+     
+        <main class="forms">
+        <h1>Porfavor, se identifique
+             </h1>
+             <span style='font-size:100px;'>&#128214;</span>
+
+        <label for="username">email:</label>
+        <input type="text" id="username" name="username" class="input">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="input">
+        
+        <input type="submit" value="Login" class="input">
+    </main>
+     </form>
+     </section>
+</body>
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <div class="container mt-3">
+
+</html>

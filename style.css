@@ -1,0 +1,59 @@
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .botao{
+        color: rgb(246, 239, 239);
+        font-size: 17px;
+        text-align: center;
+        background: black;
+    
+    }
+    .navbar{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    p{
+        color: black;
+        font-size: 16px;
+    }
+    h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px;
+        text-decoration: underline;
+        font-size: 45px;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        padding: 30px;
+    
+    }
+    .btn1{
+        background-color: black;
+        color: aliceblue;
+        height: auto;
+        width: 100px;
+        background: rgb(13, 13, 13);
+        
+    
+    }
+    .card{
+    
+        border-radius: 1rem;
+       
+        box-shadow: 6px 0px 0px 36px #08090C;
+    }
+    
+    .card-body{
+    height: 4em;
+    border-bottom: 5px outset #1C6EA4;
+    
+    
+    
+    }
