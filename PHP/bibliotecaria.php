@@ -1,4 +1,11 @@
 <?php
+include_once('../conexao.php');
+
+$sql = "SELECT senha FROM Biblioteca";
+
+$resultado = mysqli_query($conexao, $sql);
+
+
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
